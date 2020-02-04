@@ -1,5 +1,16 @@
-.head1 {
-    font-size: 5rem;
-    color: limegreen;
-    background-color: magenta;
+.panel, .a {
+    width: 100%;
+    overflow: hidden;
+    text-align: center;
+    font-size: 2rem;
+}
+
+.panel a {
+    color: crimson;
+    padding: 1.5rem, 1.5rem;
+    text-decoration: none;
+}
+.panel a:hover {
+    text-decoration-line: underline;
+    font-size: 2.5rem;
 }
